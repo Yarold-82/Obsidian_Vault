@@ -1,0 +1,1 @@
+LXQt es **un entorno de escritorio ligero, gratuito y de código abierto** . Se formó a partir de la fusión de los proyectos LXDE y Razor-qt.

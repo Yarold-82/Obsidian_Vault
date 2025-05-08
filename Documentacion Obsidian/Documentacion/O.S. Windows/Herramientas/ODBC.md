@@ -1,0 +1,9 @@
+La conectividad abierta de bases de datos (ODBC) es un protocolo que puede usar para conectar una base de datos de Microsoft Access con un origen de datos externos, como Microsoft SQL Server. Este artículo contiene información general sobre los orígenes de datos ODBC, cómo crearlos y cómo conectarse a ellos con Microsoft Access. Los pasos del procedimiento pueden variar en función de los productos específicos de la base de datos y los controladores de ODBC usados.
+
+## Información sobre los orígenes de datos ODBC
+
+Un origen de datos es una combinación de un origen de datos y la información de conexión necesaria para obtener acceso a dichos datos. Algunos ejemplos de orígenes de datos son SQL Server, Oracle RDBMS, hojas de cálculo y archivos de texto. Algunos ejemplos de la información de conexión podrían ser la ubicación del servidor, el nombre de la base de datos, el id. de inicio de sesión, la contraseña, así como varias opciones de controlador ODBC que describen cómo conectarse al origen de datos. Puede obtener esta información del administrador de la base de datos a la que quiera conectarse.
+
+### Orígenes de datos de máquina
+
+Los orígenes de datos de máquina almacenan información de conexión en el Registro de [[WINDOWS]] en un equipo específico. Puede usar orígenes de datos de máquina solo en el equipo en el que están definidos. Hay dos tipos de orígenes de datos de máquina: usuario y sistema. Los orígenes de datos de usuario solo los puede usar el usuario actual y solo son visibles para ese usuario. Todos los usuarios de un equipo pueden usar los orígenes de datos del sistema y son visibles para todos los usuarios del equipo y de los servicios de todo el sistema. Un origen de datos de equipo es especialmente útil cuando se desea proporcionar mayor seguridad, ya que solo los usuarios que inician sesión pueden ver un origen de datos del equipo y un usuario remoto no puede copiarlo en otro equipo.

@@ -1,0 +1,1 @@
+El Visor de eventos es un componente del [[Sistemas Operativos]] [[WINDOWS]] NT de Microsoft que permite a los administradores y usuarios ver los registros de eventos, generalmente extensiones de archivos .evt y .evtx, en una máquina local o remota.

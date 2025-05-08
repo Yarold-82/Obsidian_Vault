@@ -1,0 +1,1 @@
+LXDE es un entorno de escritorio libre para Unix y otras plataformas POSIX, como Linux o BSD. El nombre corresponde a "Lightweight X11 Desktop Environment", que en español significa "Entorno de escritorio X11 ligero". LXDE es un proyecto que apunta a entregar un nuevo entorno de escritorio ligero y rápido.

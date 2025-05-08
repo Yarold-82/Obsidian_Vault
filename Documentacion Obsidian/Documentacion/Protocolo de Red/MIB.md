@@ -1,0 +1,7 @@
+Base de información de gestión (MIB)
+
+Un componente vital del [[SNMP]] es la base de información de administración (MIB). Se trata de un archivo de texto que contiene información organizada jerárquicamente relativa a los datos que se pueden recopilar de un dispositivo determinado. MIB se incluye en todos los dispositivos habilitados para SNMP, y es convertido por el protocolo en un formato utilizable por el software de monitoreo. La jerarquía es un aspecto vital aquí, y todas las características manejables de diferentes dispositivos basados en proveedores se organizan correctamente con un nombre y un número que conforman el OID (identificador de objeto).
+
+Además del sondeo y el intercambio de información, SNMP también envía paquetes de datos sin solicitudes explícitas. Estas "trampas" SNMP se pueden preconfigurar para que el cliente sepa sobre los cambios específicos en el dispositivo. La configuración de los comandos de control es otra capacidad SNMP que permite al cliente (software de monitoreo) hacer cambios de configuración dentro del dispositivo.
+
+Con casi todos los proveedores compatibles con SNMP, el protocolo es una opción estándar en conjuntos de administración de red. Pero esta misma ubicuidad puede hacer que la configuración SNMP sea un proceso complejo. Su solución de gestión de red debe proporcionar una estrategia fácil y completa para implementar y configurar SNMP.

@@ -1,0 +1,1 @@
+El Administrador de dispositivos es un applet del [[Panel de Control]] de Microsoft Windows que puede usar para ver y controlar el hardware que está conectado a la computadora. Si los controladores no están instalados correctamente, es posible que el dispositivo no aparezca en la lista del Administrador de dispositivos.
