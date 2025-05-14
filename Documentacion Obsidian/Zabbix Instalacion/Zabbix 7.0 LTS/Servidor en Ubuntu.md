@@ -80,17 +80,17 @@ Busca la siguiente línea y reemplaza "password" por la clave real que configura
 > `DBPassword=password`
 ## Paso 8: Verificar los Servicios del Zabbix y Activar los Correspondientes.
 
-Para iniciar el servidor, luego de eso verifica el estatus del mismo:
+Para iniciar el servidor de zabbix, luego de eso verifica el estatus del mismo:
 ```
 systemctl start zabbix-server
 ```
 
-Para verificar el estatus del Zabbix:
+Para verificar el estatus del servidor de zabbix:
 ```
 systemctl status zabbix-server
 ```
 
-Habilitar el agente:
+Habilitar el agente de zaabbix:
 ```
 systemctl enable zabbix-agent
 ```
@@ -119,5 +119,4 @@ Reiniciar el apache:
 ```
 systemctl restart apache2.service
 ```
-
 # Instalar SSL para HTTPS

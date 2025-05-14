@@ -66,8 +66,6 @@ sudo dpkg-reconfigure lightdm
 
 Luego reinicia el sistema.
 
-Si tras estas acciones el problema continúa, puede ser útil revisar que no haya otros archivos de configuración con permisos erróneos, como `.ICEauthority`, o considerar iniciar desde un Live USB para reparar permisos en tu directorio personal[3](https://rafamartorell.wordpress.com/2012/11/12/no-puedo-acceder-a-mi-usuario-en-ubuntu/comment-page-1/).
+Si tras estas acciones el problema continúa, puede ser útil revisar que no haya otros archivos de configuración con permisos erróneos, como `.ICEauthority`, o considerar iniciar desde un Live USB para reparar permisos en tu directorio personal.
 
 Estas soluciones son las más comunes y efectivas para resolver errores relacionados con `.Xauthority` en Ubuntu.
-
-=====================
