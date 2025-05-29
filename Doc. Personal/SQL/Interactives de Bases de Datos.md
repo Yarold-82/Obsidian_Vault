@@ -1,4 +1,3 @@
-DBvisualizer
 Phpmyadmin
 Devart
 SQLProStudio

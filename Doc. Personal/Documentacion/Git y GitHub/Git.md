@@ -12,7 +12,7 @@ En si es como un dios mortal.
 
 Puedes instalar GIT descargando el ejecutable e iniciándolo, directamente desde el enlace oficinal de GIT te lo dejo a continuación, [Página web oficinal de GIT](https://git-scm.com/downloads)
 
-O puedes hacerlo usando el siguiente comando en la ventana de terminal *(Es más sencillo)*:
+O puedes hacerlo usando el siguiente comando en la ventana de terminal *(Es más sencillo, también para actualizar)*:
 
 ```
 winget install --id Git.Git -e --source winget
@@ -167,6 +167,12 @@ git status
 ```
 ## GIT CHECKOUT Y RESET
 
+>git reset: Identificar que ficheros puedes devolver a su punto de origen. sin haber commit.
+
+```
+git reset
+```
+
 >git checkout: Es para situarnos en un punto en concreto de un fichero, antes de establecer algún cambio.
 
 ```
@@ -179,11 +185,6 @@ git checkout
 git checkout "FileName"
 ```
 
->git reset: Devolver el fichero a su punto de origen.
-
-```
-git reset
-```
 ## GIT ALIAS
 
 >git config --global alias.tree "log --graph --decorate --all --online: Establece un alias al comando para su uso.
@@ -204,7 +205,7 @@ Y con eso ya estará creado el '.gitignore' ahora bien, para agregar los archivo
 >`**/.namefile`  
 ## echo
 
->echo ''>(nombre del archivo y extensión): Esto es equivalente a un *"touch"* su función es para crear un o varios ficheros. 
+>echo ' '>(nombre del archivo y extensión): Esto es equivalente a un *"touch"* su función es para crear un o varios ficheros. 
 
 ```
 echo ''>(nombre del archivo y extensión)
