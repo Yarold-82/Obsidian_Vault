@@ -1,5 +1,0 @@
-Phpmyadmin
-Devart
-SQLProStudio
-TablePlus
-MySQL Workbench
